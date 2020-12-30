@@ -1,0 +1,14 @@
+#page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.customclass:hover {
+  border-bottom: 2px solid #035e87 !important;
+  color: #035e87 !important;
+}
+
+.ant-menu-item-selected {
+  border-bottom: 2px solid #035e87 !important;
+  color: #035e87 !important;
+}
