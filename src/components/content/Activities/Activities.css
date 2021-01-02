@@ -1,12 +1,12 @@
-#containerAccueil {
+.centered {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   margin: 2%;
 }
 
 @media only screen and (max-width: 800px) {
-  #containerAccueil {
+  #centered {
     display: flex;
     flex-direction: column;
     margin: 2%;

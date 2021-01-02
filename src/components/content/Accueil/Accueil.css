@@ -1,0 +1,15 @@
+#centered-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2%;
+}
+#containerAccueil {
+  background-size: cover;
+}
+#body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2%;
+}

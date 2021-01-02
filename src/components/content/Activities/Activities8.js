@@ -1,35 +1,23 @@
-import { Typography, Divider } from 'antd';
+
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Activities.css";
-import levant1 from "../../../assets/levant.png";
-import levant2 from "../../../assets/levant1.png";
-import levant3 from "../../../assets/levant3.jpg";
+import directhistory4 from "../../../assets/DevDay1.png";
+import directhistory5 from "../../../assets/DevDay2.png";
+
+
 import { Carousel, Card } from "antd";
-import 'fontsource-roboto';
 
-
-const { Title, Paragraph, Text } = Typography;
-export default function Activities1() {
+export default function Activities8() {
   const { Meta } = Card;
   const imgStyle = {
     maxHeight: 450,
-    
     
   };
 
   return (
     <section className="centered">
-
-<Typography>
-    <Title>Introduction</Title>
-    <Paragraph>
-      In the process of internal desktop applications development, many different design specs and
-      implementations would be involved, which might cause designers and developers difficulties and
-      duplication and reduce the efficiency of development.
-    </Paragraph>
-    </Typography>
-      <h3> Trésorier Kap Levant </h3>
+      <h3> Devday : webinar traitement du langage naturel par les machines et The serverLess Panacea </h3>
       <br>
       </br>
       <br></br>
@@ -43,18 +31,16 @@ J'ai pu mettre en pratique certaines choses que j'avais apprises lors du cours d
       </div>
       <h4>Galerie d'images</h4>
       <Card
-      style={{ width: 300, marginTop: "2%", height: 550, borderRadius: 8 }}
+      style={{ width: 800, marginTop: "2%", height: 550, borderRadius: 8 }}
       cover={
         <Carousel autoplay>
           <div>
-            <img src={levant1} alt="carousel" style={imgStyle} />
+            <img src={directhistory4} alt="carousel" style={imgStyle} />
           </div>
           <div>
-            <img src={levant2} alt="carousel" style={imgStyle} />
+            <img src={directhistory5} alt="carousel" style={imgStyle} />
           </div>
-          <div>
-            <img src={levant3} alt="carousel" style={imgStyle} />
-          </div>
+         
         </Carousel>
       }
     >

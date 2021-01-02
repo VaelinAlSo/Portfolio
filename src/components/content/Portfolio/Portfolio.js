@@ -64,8 +64,8 @@ const setNav = () => {
     {
         key: '7',
         theme: 'Webinars',
-        acti: "Webinar : What does the future hold for cloud computing ",
-        date: '12/03/2020',
+        acti: "Webinar : Job It day, les métiers du Data",
+        date: 'Octobre 2020',
         heures : '1h30',
         valorisation: '1h30'
     },
@@ -150,7 +150,7 @@ const setNav = () => {
 
   return (
     
-      
+      <div id="containerAccueil">
       <Table dataSource={dataSource} columns={columns} 
       summary={() => (
         <Table.Summary.Row>
@@ -161,5 +161,6 @@ const setNav = () => {
           <Table.Summary.Cell index={4}>60h</Table.Summary.Cell>
         </Table.Summary.Row>
       )}/>
+      </div>
   );
 }

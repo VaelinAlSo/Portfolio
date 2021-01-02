@@ -10,6 +10,7 @@
     "antd": "^4.9.3",
     "bootstrap": "^4.5.3",
     "country-flag-icons": "^1.2.7",
+    "fontsource-roboto": "^4.0.0",
     "leaflet": "^1.7.1",
     "pigeon-maps": "^0.17.0",
     "react": "^17.0.1",
