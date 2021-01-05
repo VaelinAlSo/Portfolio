@@ -14,10 +14,10 @@ export default function Bienvenue() {
     >
       <Meta
         title={
-          <p style={{ fontSize: "13px" }}>
+          <h6 style={{ fontSize: "13px" }}>
             Bienvenue sur le site du Portfolio de Gilles <br></br>
              Quirynen
-          </p>
+          </h6>
         }
         description={"Nous sommes le " + new Date().toLocaleDateString()}
       />

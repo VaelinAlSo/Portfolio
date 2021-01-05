@@ -48,7 +48,7 @@ const setNav = () => {
     {
         key: '5',
         theme: 'Developement Web',
-        acti: "Formations OpenClassroom : Réalisez une application web avec React.js",
+        acti: "OpenClassroom : Réalisez une application web avec React.js",
         date: 'Février 2020',
         heures : '20h',
         valorisation: '10h'
@@ -56,7 +56,7 @@ const setNav = () => {
     {
         key: '6',
         theme: 'Developement Web avancé',
-        acti: "Formations OpenClassroom : Des applications ultra-rapides avec Node.js",
+        acti: "OpenClassroom : Des applications ultra-rapides avec Node.js",
         date: 'Mars 2020',
         heures : '10h',
         valorisation: '10h'
@@ -72,22 +72,22 @@ const setNav = () => {
     {
         key: '8',
         theme: 'Webinars',
-        acti: "Devday : webinar traitement du langage naturel par les machines et The serverLess Panacea ",
+        acti: "Devday : 2 Webinars (traitement langage et Serverless Panacea) ",
         date: '16/11/2020',
         heures : '3h15',
         valorisation: '3h15'
     },
     {
-        key: '9',
-        theme: 'Webinars',
+        key: '10',
+        theme: 'Visite entreprise (Remote)',
         acti: "Aperodoo : Présentation de Odoo 14 et job opportunities",
         date: '2/12/2020',
         heures : '1h',
         valorisation: '1h'
     },
     {
-        key: '10',
-        theme: 'Analyse et Anglais',
+        key: '9',
+        theme: 'Business Analyse et Anglais',
         acti: "Formation Business analyst Fundamentals Udemy",
         date: 'December 2020',
         heures : '8h30',
@@ -100,14 +100,7 @@ const setNav = () => {
         heures : '5h',
         valorisation: '5h'
     },
-    {
-        key: '12',
-        theme: 'Cloud',
-        acti: "Formation AZ-900 Microsoft Azure Fundamentals ",
-        date: 'November 2020',
-        heures : '3h30',
-        valorisation: '3h30'
-    },
+    
   ];
   
   const columns = [

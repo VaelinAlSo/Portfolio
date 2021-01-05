@@ -17,18 +17,27 @@ export default function Activities6() {
 
   return (
     <section className="centered">
-      <h3> Formations OpenClassroom : Des applications ultra-rapides avec Node.js </h3>
+        <Card 
+      style={{backgroundColor: 'rgba(23, 29, 42, 1.0)', border: 0 , borderRadius: 8}}
+      
+      >
+      <h2 className="white"> Formations OpenClassroom : Des applications ultra-rapides avec Node.js </h2>
       <br>
       </br>
       <br></br>
       <div>
-      <p> Lors de ma deuxième année d'étude à l'Ephec j'ai eu l'opportunité de kotter à louvain-la-neuve. J'ai sauté sur l'occasion et me suis inscrit pour l'année 2017-2018 au KAP Levant. <br>
+      <p>Open Classroom est née de la rencontre de Pierre Dubuc et Mathieu Nebra, alors âgés de respectivement 11 et 13 ans. Tous deux animés de la même passion pour l’informatique, ils lancent leur premier cours de programmation en ligne en 1999 ; dès le début de l’histoire, l’objectif est de rendre accessible un savoir complexe.
+<br></br>
+Une communauté de plus en plus large se construit progressivement autour de Mathieu et Pierre, qui lancent alors l’un des premiers forums en ligne d’entraide au code à la programmation : le Site du Zéro. Mine d’information pour tous les passionnés d’internet, le SdZ devient vite une référence à travers le Web francophone.
+<br></br>
+En 2013, les deux associés décident de lancer OpenClassrooms, une véritable école en ligne offrant d’abord de très nombreux cours gratuits sur une multitude de sujets ; OpenClassrooms propose aujourd’hui de nombreux parcours menant à une licence ou un mastère, ou encore à un diplôme inscrit au Répertoire National des Compétences Professionnelles.</p>
+      <p> J'ai effectué cette formation en supplément du cours de développement web car lors de ce cours nous devions créer un projet de toutes pièce mais nous avions le choix de quelles technologies utilser. Mon collègue et moi étions principalement familier avec javascript, nous avons donc choisi un de compléter notre Frontend que nous faisions en ReactJS avec du Node JS <br>
       </br>
-      Je me suis porté volontaire pour être trésorier, vu qu'il fallait quelqu'un de familer avec Excel de préférences et qui n'avait pas peur de se plonger dans les chiffres. Durant mes 5 mois j'ai eu l'occasion de gérer le compte en banque du Kot (dépenses, rentrées d'argent,...)
-mais également l'organisations d'évenèments.<br></br>
-J'ai pu mettre en pratique certaines choses que j'avais apprises lors du cours d'Init Pc avec Mr Delvigne concernant les bonnes pratiques Excel et même m'essayer à écrire quelques macros pour me faciliter la vie.      
+      J'ai appris lors de ce cours à utiliser et mettre en place les technologies backend telles que les API, les ORM (mapping objet-relationnel) pour communiquer avec des bases de données.<br></br> Et enfin en apprendre plus sur la sécurité sur le web, la gestion des mots de passe et des informations sensibles <br></br>
       </p>
       </div>
+      </Card>
+      <br></br>
       <h4>Galerie d'images</h4>
       <Card
       style={{ width: 800, marginTop: "2%", height: 550, borderRadius: 8 }}

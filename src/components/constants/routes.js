@@ -10,6 +10,8 @@ import Activities6 from "../content/Activities/Activities6";
 import Activities7 from "../content/Activities/Activities7";
 import Activities8 from "../content/Activities/Activities8";
 import Activities10 from "../content/Activities/Activities10";
+import Activities9 from "../content/Activities/Activities9";
+import Projet from "../content/Projet/Projet";
 
 //import Horaires from "../content/Horaires/Horaires";
 //import Informations from "../content/Informations/Informations";
@@ -63,11 +65,15 @@ export default function Routes(props) {
       <Switch>
         <Route exact strict path="/Activities10" component={Activities10} />
       </Switch>
-      {/*
+      <Switch>
+        <Route exact strict path="/Activities9" component={Activities9} />
+      </Switch>
+      
        
       <Switch>
-        <Route exact strict path="/Horaires" component={Horaires} />
+        <Route exact strict path="/Projet" component={Projet} />
       </Switch>
+      {/*
       <Switch>
         <Route exact strict path="/Informations" component={Informations} />
         

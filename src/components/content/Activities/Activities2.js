@@ -17,7 +17,11 @@ export default function Activities2() {
 
   return (
     <section className="centered">
-      <h3> Direct-History Création de contenu </h3>
+        <Card 
+      style={{backgroundColor: 'rgba(23, 29, 42, 1.0)', border: 0 , borderRadius: 8}}
+      
+      >
+      <h2 className="white"> Direct-History Création de contenu </h2>
       <br>
       </br>
       <br></br>
@@ -28,6 +32,8 @@ export default function Activities2() {
 J'ai pu mettre en pratique certaines choses que j'avais apprises lors de mes cours de développement web notamment les bonnes pratiques Css pour remodeler certains composants à ma guise et la navigation entre les différentes pages du site.       
       </p>
       </div>
+      </Card>
+      <br></br>
       <h4>Galerie d'images</h4>
       <Card
       style={{ width: 800, marginTop: "2%", height: 550, borderRadius: 8 }}

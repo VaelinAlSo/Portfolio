@@ -17,18 +17,22 @@ export default function Activities8() {
 
   return (
     <section className="centered">
-      <h3> Devday : webinar traitement du langage naturel par les machines et The serverLess Panacea </h3>
+        <Card 
+      style={{backgroundColor: 'rgba(23, 29, 42, 1.0)', border: 0 , borderRadius: 8}}
+      
+      >
+      <h2 className="white">Devday : webinar traitement du langage naturel par les machines et The serverLess Panacea </h2>
       <br>
       </br>
       <br></br>
       <div>
-      <p> Lors de ma deuxième année d'étude à l'Ephec j'ai eu l'opportunité de kotter à louvain-la-neuve. J'ai sauté sur l'occasion et me suis inscrit pour l'année 2017-2018 au KAP Levant. <br>
-      </br>
-      Je me suis porté volontaire pour être trésorier, vu qu'il fallait quelqu'un de familer avec Excel de préférences et qui n'avait pas peur de se plonger dans les chiffres. Durant mes 5 mois j'ai eu l'occasion de gérer le compte en banque du Kot (dépenses, rentrées d'argent,...)
-mais également l'organisations d'évenèments.<br></br>
-J'ai pu mettre en pratique certaines choses que j'avais apprises lors du cours d'Init Pc avec Mr Delvigne concernant les bonnes pratiques Excel et même m'essayer à écrire quelques macros pour me faciliter la vie.      
+      <p> "Quand ils ont réalisé qu'aucune de leurs idoles ne viendrait jamais en Wallonie parce qu'il n'y avait pas d'événement décent pour les accueillir, 4 développeurs ont décidé d'organiser la plus grande conférence de la région. 4 ans et plus de 1000 participants plus tard, les organisateurs (avec 3 nouveaux amis) sont fiers de dire qu'ils ont eu le privilège d'accueillir rien de moins que 25 MVP et 20 Microsoftees lors des éditions précédentes".
+<br></br><br></br>Je m'étais inscris au Devday auparavant mais malheureusement je n'avais pas pu y assister. J'ai donc sauté sur l'occasion cette année malgré le fait que contrairement aux années précédentes, cette édition s'est passée en 100% remote.<br></br>
+Le thème des webinars m'intéressait mais c'était des sujets avec lesquels j'étais très peu familier. Malgré cela, j'ai énormément appris sur le Machine Learning et le serverless lors de ces 3 heures. La conférence que j'ai préféré était sur le traitement du lanagage naturel par les machines, un sujet passionnant donnée par une excellente conférencière.    
       </p>
       </div>
+      </Card>
+      <br></br>
       <h4>Galerie d'images</h4>
       <Card
       style={{ width: 800, marginTop: "2%", height: 550, borderRadius: 8 }}

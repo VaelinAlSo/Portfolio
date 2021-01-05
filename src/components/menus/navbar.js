@@ -77,9 +77,9 @@ export default function Navigation() {
               >
                 <Link
                   style={{ textDecoration: "none", color: "inherit" }}
-                  to="/Informations"
+                  to="/Projet"
                 >
-                  Informations
+                  Projet professionnel
                 </Link>
               </Menu.Item>
               <Menu.Item

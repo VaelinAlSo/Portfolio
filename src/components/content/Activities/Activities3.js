@@ -17,7 +17,11 @@ export default function Activities3() {
 
   return (
     <section className="centered">
-      <h3> Direct-History SEO analysis and marketing </h3>
+         <Card 
+      style={{backgroundColor: 'rgba(23, 29, 42, 1.0)', border: 0 , borderRadius: 8}}
+      
+      >
+      <h2 className="white"> Direct-History SEO analysis and marketing </h2>
       <br>
       </br>
       <br></br>
@@ -28,6 +32,8 @@ export default function Activities3() {
       J'ai ensuite mis en pratique tout ce que j'avais appris lors de mes recherches sur mon propre site. J'ai assez vite vu des résultats assez encourageant avec un traffic en nette hausse entre l'année de lancement de mon site par rapport à l'année suivante. Je continue à essayer d'améliorer les performances de mon site dans l'espoir d'un jour peut-être pouvoir en retirer un revenu. Mais pour le moment je me satisfait du fait que des gens lisent et apprécient mon travail.
       </p>
       </div>
+      </Card>
+      <br></br>
       <h4>Galerie d'images</h4>
       <Card
       style={{ width: 800, marginTop: "2%", height: 550, borderRadius: 8 }}

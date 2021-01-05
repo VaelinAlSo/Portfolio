@@ -17,7 +17,7 @@ export default function Accueil(props) {
 <div id="containerAccueil" style ={{backgroundImage: `url(${Background})`, borderRadius: 8}}>
       <div id= "centered-image" style={{ marginTop: "2%" } } >
       <div>
-            <img src={directhistory5} alt="carousel"  />
+            <img src={directhistory5} id="img1" alt="carousel"   />
           </div><br></br>
         <Bienvenue />
         
@@ -27,7 +27,7 @@ export default function Accueil(props) {
     {/*  <BackGroundCarousel /> */}
     </div>
     <div id="body">
-    <a href = {Pdf} target = "_blank">  <Button>Click here to view CV</Button> </a>
+    <a href = {Pdf} target = "_blank">  <Button>Cliquez ici pour voir le CV </Button> </a>
     </div>
     </div>
   );

@@ -2,8 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Activities.css";
-import directhistory4 from "../../../assets/BA_Fundamentals_1.png";
-import directhistory5 from "../../../assets/BA_Fundamentals_Udemy.png";
+import directhistory4 from "../../../assets/Aperodoo.png";
+import directhistory5 from "../../../assets/Aperodoo_2.png";
+import directhistory6 from "../../../assets/aperodoo_3.png";
 
 
 import { Carousel, Card } from "antd";
@@ -16,20 +17,32 @@ export default function Activities10() {
   };
 
   return (
+
     <section className="centered">
-      <h3> 	
-Formation Business analyst Fundamentals Udemy </h3>
+      <Card 
+      style={{backgroundColor: 'rgba(23, 29, 42, 1.0)', border: 0 , borderRadius: 8}}
+      
+      >
+      <h2 className="white"> 	Aperodoo : Présentation de Odoo et job opportunities </h2>
       <br>
       </br>
       <br></br>
+      
       <div>
-      <p> Lors de ma deuxième année d'étude à l'Ephec j'ai eu l'opportunité de kotter à louvain-la-neuve. J'ai sauté sur l'occasion et me suis inscrit pour l'année 2017-2018 au KAP Levant. <br>
-      </br>
-      Je me suis porté volontaire pour être trésorier, vu qu'il fallait quelqu'un de familer avec Excel de préférences et qui n'avait pas peur de se plonger dans les chiffres. Durant mes 5 mois j'ai eu l'occasion de gérer le compte en banque du Kot (dépenses, rentrées d'argent,...)
-mais également l'organisations d'évenèments.<br></br>
-J'ai pu mettre en pratique certaines choses que j'avais apprises lors du cours d'Init Pc avec Mr Delvigne concernant les bonnes pratiques Excel et même m'essayer à écrire quelques macros pour me faciliter la vie.      
+      <p> Odoo est une suite d'applications open source qui couvrent tous les besoins d'une entreprise: CRM, eCommerce, Comptabilité, Inventaire, Point de Vente, Gestion de Projet, etc.
+
+Le positionnement unique d'Odoo est d'être à la fois très facile à utiliser et totalement intégré.<br></br>
+<br></br>
+Lors de mes études j'ai souvent entendu parler d'Odoo, une géant Wallon de l'ERP. J'ai toujours été intrigué par cette entreprise qui s'était établi dans 2 fermes pas très loin de Louvain-la-Neuve, j'ai donc décidé de participer à leur aperodoo annuel.
+<br></br>L'aperodoo s'est passé en plusieurs étapes : d'abord une présentation de leur produit principal ensuite une présentation de l'entreprise en elle-même et des différentes locations et enfin une présentation des équipes et des offres d'emplois.
+<br></br>J'ai énormément appris sur la manière dont fonctionnait ce type d'entreprise grâce au speech du CEO, Fabien Plinckaers.
       </p>
       </div>
+      
+      </Card>
+
+      <br></br>
+      <br></br>
       <h4>Galerie d'images</h4>
       <Card
       style={{ width: 800, marginTop: "2%", height: 550, borderRadius: 8 }}
@@ -40,6 +53,9 @@ J'ai pu mettre en pratique certaines choses que j'avais apprises lors du cours d
           </div>
           <div>
             <img src={directhistory5} alt="carousel" style={imgStyle} />
+          </div>
+          <div>
+            <img src={directhistory6} alt="carousel" style={imgStyle} />
           </div>
          
         </Carousel>

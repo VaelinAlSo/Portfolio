@@ -21,15 +21,11 @@ export default function Activities1() {
   return (
     <section className="centered">
 
-<Typography>
-    <Title>Introduction</Title>
-    <Paragraph>
-      In the process of internal desktop applications development, many different design specs and
-      implementations would be involved, which might cause designers and developers difficulties and
-      duplication and reduce the efficiency of development.
-    </Paragraph>
-    </Typography>
-      <h3> Trésorier Kap Levant </h3>
+      <Card 
+      style={{backgroundColor: 'rgba(23, 29, 42, 1.0)', border: 0 , borderRadius: 8}}
+      
+      >
+      <h2 className="white"> Trésorier Kap Levant </h2>
       <br>
       </br>
       <br></br>
@@ -41,17 +37,17 @@ mais également l'organisations d'évenèments.<br></br>
 J'ai pu mettre en pratique certaines choses que j'avais apprises lors du cours d'Init Pc avec Mr Delvigne concernant les bonnes pratiques Excel et même m'essayer à écrire quelques macros pour me faciliter la vie.      
       </p>
       </div>
+      </Card>
+      <br></br>
       <h4>Galerie d'images</h4>
       <Card
-      style={{ width: 300, marginTop: "2%", height: 550, borderRadius: 8 }}
+     style={{ width: 800, marginTop: "2%", height: 550, borderRadius: 8 }}
       cover={
         <Carousel autoplay>
           <div>
             <img src={levant1} alt="carousel" style={imgStyle} />
           </div>
-          <div>
-            <img src={levant2} alt="carousel" style={imgStyle} />
-          </div>
+          
           <div>
             <img src={levant3} alt="carousel" style={imgStyle} />
           </div>
